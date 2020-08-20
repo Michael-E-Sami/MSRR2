@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+ <include file="$(find gp_abstract_sim)/launch/start_testworld.launch">
+ </include>
+<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto0"/>
+    <arg name="x" value="0.0"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal0"/>
+ </include>
+ <include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto1"/>
+    <arg name="x" value="0.5"/>
+    <arg name="y" value="0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal1"/>
+ </include>
+<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto2"/>
+    <arg name="x" value="1.0"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal2"/>
+ </include>
+<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto3"/>
+    <arg name="x" value="1.5"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal3"/>
+ </include>
+<!--<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto4"/>
+    <arg name="x" value="2"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal4"/>
+ </include>
+<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto5"/>
+    <arg name="x" value="2.5"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal5"/>
+ </include>
+ <include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto6"/>
+    <arg name="x" value="3"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal6"/>
+ </include>
+ <include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto7"/>
+    <arg name="x" value="3.5"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal7"/>
+ </include>
+ <include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="ditto8"/>
+    <arg name="x" value="4"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="0"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="0.0"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="modelfinal8"/>
+ </include>
+<include file="$(find gp_abstract_sim)/launch/spawn_sdf.launch">
+    <arg name="robot_name" value="RealSense_D435"/>
+    <arg name="x" value="0.0"/>
+    <arg name="y" value="0.0"/>
+    <arg name="z" value="1.34"/>
+    <arg name="roll" value="0.0"/>
+    <arg name="pitch" value="3.141592654"/>
+    <arg name="yaw" value="0.0"/>
+    <arg name="sdf_robot_file" value="realsenseD435"/>
+ </include>-->
+</launch>

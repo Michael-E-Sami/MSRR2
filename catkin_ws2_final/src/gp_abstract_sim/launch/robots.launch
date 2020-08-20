@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+ <param name="robot_description" textfile="$(find gp_abstract_sim)/models_new/model.sdf"/>
+
+  <!-- BEGIN ROBOT 1-->
+  <group ns="rob1">
+    <include file="$(find gp_abstract_sim)/launch/spawn_sdf_new.launch" >
+      <arg name="robot_name" value="rob1"/>
+    </include>
+  </group>
+ 
+  <!-- BEGIN ROBOT 2
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+    <include file="$(find gp_abstract_sim)/launch/spawn_sdf_new.launch" >
+      <arg name="robot_name"  value="Robot2" />
+    </include>
+  </group>-->
+</launch>

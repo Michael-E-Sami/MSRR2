@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <model name='id0'>
+    <static>true</static>
+    <link name='body'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+      <collision name='body_fixed_joint_lump__collision_collision'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>/home/xtreme/catkin_ws1/src/gp_abstract_sim/models/id0/meshes/id0.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='body_fixed_joint_lump__visual_visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>/home/xtreme/catkin_ws1/src/gp_abstract_sim/models/id0/meshes/id0.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
