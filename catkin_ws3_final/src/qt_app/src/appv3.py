@@ -59,7 +59,7 @@ class Ui_MainWindow(object):
         self.robots_connected = robots_connected
         self.mode_of_operation = mode_of_operation
         import rospy
-        rospy.init_node('MSSR_application', anonymous=True)
+        rospy.init_node('MSRR_application', anonymous=True)
         if mode_of_operation == "Simulation":
             from simClass import simClass as opCl
         if mode_of_operation == "Pysical":
@@ -740,7 +740,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MSSR"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "MSRR"))
         self.roll_left.setText(_translate("MainWindow", "Roll Left"))
         self.roll_right.setText(_translate("MainWindow", "Roll Right"))
         self.pitch_up.setText(_translate("MainWindow", "Pitch Up"))
