@@ -32,6 +32,7 @@ other essential commands to set up everything correctly and in order to build ev
   
   /usr/bin/python3 -m pip install -U Numpy --user
   
+Please visit our webpage at https://blablabla15851.wixsite.com/msrr
 
 ![](Images/Model.png)
 
