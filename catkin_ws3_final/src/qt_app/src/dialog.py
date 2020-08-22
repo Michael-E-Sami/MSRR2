@@ -172,8 +172,8 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "MSSR"))
-        self.label.setText(_translate("Dialog", "Hello and welcome to MSSR application!"))
+        Dialog.setWindowTitle(_translate("Dialog", "MSRR"))
+        self.label.setText(_translate("Dialog", "Hello and welcome to MSRR application!"))
         self.label_2.setText(_translate("Dialog", "Please choose the next session type"))
         self.comboBox.setItemText(0, _translate("Dialog", "None"))
         self.comboBox.setItemText(1, _translate("Dialog", "Simulation"))
