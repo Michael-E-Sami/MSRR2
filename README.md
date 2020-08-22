@@ -34,6 +34,8 @@ other essential commands to set up everything correctly and in order to build ev
   
 ### **Please visit our webpage at https://blablabla15851.wixsite.com/msrr**
 
+### Meet our robot
+
 ![](Images/Model.png)
 
 1)	The main body of the robot
